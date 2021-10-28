@@ -1,0 +1,82 @@
+#title-box{
+    grid-area: title;
+
+    font-family: 'Podkova', serif;
+    font-size: 100px;
+
+    text-align: center;
+    
+    border-bottom: 9px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: black;
+    border-style:solid;
+
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#text-under-title{
+    grid-area: under-title;
+}
+
+#text-left{
+    grid-area: left;
+}
+
+#mouse-indicator{
+    grid-area: mouse;
+    width: 15vw;
+    margin-left: 3vw;
+}
+
+#video{
+    grid-area: video;
+    height:55vh;
+    width: 50vw;
+}
+
+#next-button{
+    grid-area: next;
+
+    margin-left: 3vw;
+
+    box-shadow: 0px;
+    background-color: #174276;
+    color: white;
+
+    border-color: black;
+    border-width: 3px;
+
+    width: 400px;
+    height: 203px;
+    border-radius: 75px;
+
+    cursor: pointer;
+}
+
+.text-boxes{
+    text-align: center;
+
+    font-family: 'Poppins', serif;
+    font-size: 32px;
+}
+
+body{
+    background-color:#e3f2ff;
+    
+    margin-top: 10vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    
+    display: grid;
+
+    grid-template-columns: 20vw 50vw 20vw;
+    grid-template-rows: 150px 100px 35vh 20vh;
+    grid-template-areas: 
+    ". title ."
+    ". under-title ."
+    "left video ."
+    "mouse video next"
+}

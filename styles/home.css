@@ -1,0 +1,124 @@
+#title-box{
+    grid-area: title;
+
+    font-family: 'Podkova', serif;
+    font-size: 100px;
+
+    text-align: center;
+    
+    border-bottom: 9px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: black;
+    border-style:solid;
+
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#help-button{
+    grid-area: help;
+    background: #FF0000;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    text-align: center;
+    margin-right: 3vw;
+}
+
+#text-left{
+    grid-area: left;
+}
+
+#mouse-indicator{
+    grid-area: mouse;
+    width: 15vw;
+    margin-left: 3vw;
+}
+
+#moduleTurnOnOffButton{
+    grid-area: moduleTurnOnOffButton;
+    
+}
+
+#moduleTurnOnOffText{
+    grid-area: moduleTurnOnOffText;
+}
+
+#moduleWindowsButton{
+    grid-area: moduleWindowsButton;
+    
+}
+
+#moduleWindowsText{
+    grid-area: moduleWindowsText;
+}
+
+#moduleBrowsersButton{
+    grid-area: moduleBrowsersButton;
+    
+}
+
+#moduleBrowsersText{
+    grid-area: moduleBrowsersText;
+}
+
+.moduleText{
+    background: #174276;
+    border: 2px solid #000000;
+    height: 150px;
+    vertical-align: middle;
+    border-radius: 10px;
+    margin-bottom: 2vw;
+    cursor: pointer;
+
+    text-align: center;
+    font-family: 'Poppins', serif;
+    font-size: 32px;
+}
+
+.moduleButton{
+    width: 196px;
+    height: 169px;
+    margin-left: 5vw;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.text-boxes{
+    text-align: center;
+
+    font-family: 'Poppins', serif;
+    font-size: 32px;
+    margin-right: 3vw;
+}
+
+body{
+    background-color:#e3f2ff;
+    
+    margin-top: 10vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    
+    display: grid;
+
+    grid-template-columns: 25vw 18vw 25vw 20vw;
+    grid-template-rows: 15vh 5vh 20vh 20vh 20vh;
+    grid-template-areas: 
+    "help title title ."
+    ". . . ."
+    "left moduleTurnOnOffButton moduleTurnOnOffText moduleTurnOnOffText"
+    ". moduleWindowsButton moduleWindowsText moduleWindowsText"
+    "mouse moduleBrowsersButton moduleBrowsersText moduleBrowsersText"
+}
