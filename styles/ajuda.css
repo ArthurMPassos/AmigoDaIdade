@@ -1,0 +1,98 @@
+#title-box{
+    grid-area: title;
+
+    font-family: 'Podkova', serif;
+    font-size: 100px;
+
+    text-align: center;
+    
+    border-bottom: 9px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: black;
+    border-style:solid;
+
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#return-button{
+    grid-area: return;
+    background:#174276;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin-right: 3vw;
+    cursor: pointer;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    text-align: center;
+    color: white;
+}
+
+#img-mouse{
+    grid-area: img-mouse;
+}
+
+#img-barra{
+    grid-area: img-barra;
+}
+#img-blocked{
+    grid-area: img-blocked;
+}
+
+.images{
+    width: 198px;
+    height: 168px;
+    margin-left: 5vw;
+    margin-right: 0;
+    margin-bottom: 2vw;
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+#text-dica1{
+    grid-area: dica1;
+}
+#text-dica2{
+    grid-area: dica2;
+}
+#text-dica3{
+    grid-area: dica3;
+}
+
+.text-boxes{
+    height: 150px;
+    vertical-align: middle;
+    margin-bottom: 2vw;
+    margin-top: 0.5vw;
+    text-align: center;
+    font-family: 'Poppins', serif;
+    font-size: 32px;
+    margin-right: 3vw;
+}
+
+body{
+    background-color:#e3f2ff;
+    
+    margin-top: 6vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    
+    display: grid;
+
+    grid-template-columns: 20vw 20vw 0vw 30vw 20vw;
+    grid-template-rows: 15vh 8vh 20vh 20vh 20vh;
+    grid-template-areas: 
+    "return title title title ."
+    ". . . . ."
+    "img-mouse dica1 dica1 dica1 dica1"
+    "img-barra dica2 dica2 dica2 dica2"
+    "img-blocked dica3 dica3 dica3 dica3"
+}

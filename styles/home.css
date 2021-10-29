@@ -17,19 +17,38 @@
     margin-top: 0px;
 }
 
+#return-button{
+    grid-area: return;
+    background:#174276;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin-right: 3vw;
+    cursor: pointer;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    text-align: center;
+    color: white;
+}
+
 #help-button{
     grid-area: help;
     background: #FF0000;
     border: 3px solid #000000;
     box-sizing: border-box;
     border-radius: 50px;
+    margin-left: 3vw;
     cursor: pointer;
+
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 80px;
     text-align: center;
-    margin-right: 3vw;
+    color: white;
 }
 
 #text-left{
@@ -82,13 +101,15 @@
     text-align: center;
     font-family: 'Poppins', serif;
     font-size: 32px;
+    color: white;
+    
 }
 
 .moduleButton{
     width: 196px;
     height: 169px;
     margin-left: 5vw;
-    margin-right: 1vw;
+    margin-right: 0;
     margin-bottom: 2vw;
     background: #FFFFFF;
     border: 3px solid #000000;
@@ -108,18 +129,18 @@
 body{
     background-color:#e3f2ff;
     
-    margin-top: 10vh;
+    margin-top: 6vh;
     margin-left: 5vw;
     margin-right: 5vw;
     
     display: grid;
 
-    grid-template-columns: 25vw 18vw 25vw 20vw;
-    grid-template-rows: 15vh 5vh 20vh 20vh 20vh;
+    grid-template-columns: 20vw 20vw 0vw 30vw 20vw;
+    grid-template-rows: 15vh 8vh 20vh 20vh 20vh;
     grid-template-areas: 
-    "help title title ."
-    ". . . ."
-    "left moduleTurnOnOffButton moduleTurnOnOffText moduleTurnOnOffText"
-    ". moduleWindowsButton moduleWindowsText moduleWindowsText"
-    "mouse moduleBrowsersButton moduleBrowsersText moduleBrowsersText"
+    "return title title title help"
+    ". . . . ."
+    "left moduleTurnOnOffButton . moduleTurnOnOffText moduleTurnOnOffText"
+    ". moduleWindowsButton . moduleWindowsText moduleWindowsText"
+    "mouse moduleBrowsersButton . moduleBrowsersText moduleBrowsersText"
 }

@@ -17,13 +17,41 @@
     margin-top: 0px;
 }
 
-#text-under-title{
-    grid-area: under-title;
-    margin: 1vh;
-}
-
 #text-left{
     grid-area: left;
+}
+
+#return-button{
+    grid-area: return;
+    background:#174276;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin-right: 3vw;
+    cursor: pointer;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    text-align: center;
+    color: white;
+}
+
+#help-button{
+    grid-area: help;
+    background: #FF0000;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    margin-left: 3vw;
 }
 
 #mouse-indicator{
@@ -61,7 +89,7 @@
     text-align: center;
 
     font-family: 'Poppins', serif;
-    font-size: 32px;
+    font-size: 30px;
 }
 
 body{
@@ -76,9 +104,9 @@ body{
     grid-template-columns: 20vw 50vw 20vw;
     grid-template-rows: 15vh 7vh 20vh 20vh 20vh;
     grid-template-areas: 
-    ". title ."
-    ". under-title ."
+    "return title help"
+    "left . ."
     "left video ."
-    "left video ."
-    "mouse video next"
+    ". video ."
+    "mouse video ."
 }
