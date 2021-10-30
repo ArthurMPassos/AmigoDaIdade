@@ -9,3 +9,6 @@ O projeto está hospedado no GitHub Pages, no link https://arthurmpassos.github.
 ### Especificações do protótipo
 - O site não é responsivo e foi projetado para monitores com resolução de 1920x1080 pixels.
 - Testado no navegador firefox.
+
+### Apresentação
+Disponível nesse [link](https://youtu.be/iYnV0KyDjpI)
