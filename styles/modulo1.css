@@ -19,6 +19,7 @@
 
 #text-left{
     grid-area: left;
+    margin-top: 0;
 }
 
 #return-button{
@@ -117,7 +118,7 @@ body{
     grid-template-rows: 15vh 7vh 20vh 20vh 20vh;
     grid-template-areas: 
     "return title help"
-    "left . ."
+    ". . ."
     "left video ."
     ". video ."
     "mouse video ."
