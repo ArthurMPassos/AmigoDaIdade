@@ -55,7 +55,7 @@
 .images{
     width: 198px;
     height: 168px;
-    margin-left: 5vw;
+    margin-left: 9vw;
     margin-right: 0;
     margin-bottom: 2vw;
     background: #FFFFFF;
@@ -79,7 +79,7 @@
     vertical-align: middle;
     margin-bottom: 2vw;
     margin-top: 0.5vw;
-    text-align: center;
+    text-align: left;
     font-family: 'Poppins', serif;
     font-size: 30px;
     margin-right: 3vw;
