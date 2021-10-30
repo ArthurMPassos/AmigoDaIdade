@@ -2,7 +2,7 @@
     grid-area: title;
 
     font-family: 'Podkova', serif;
-    font-size: 90px;
+    font-size: 88.1px;
 
     text-align: center;
     
@@ -128,7 +128,7 @@
 .moduleButton{
     width: 196px;
     height: 169px;
-    margin-left: 4.7vw;
+    margin-left: 4vw;
     margin-right: 0;
     margin-bottom: 2vw;
     background: #FFFFFF;
